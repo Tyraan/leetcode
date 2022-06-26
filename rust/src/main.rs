@@ -1,6 +1,6 @@
 mod problems;
-
+use  problems::solution::Solution as Solution;
 fn main() {
     let num = 14441;
-    problems::solution::Solution::is_palindrome(122);
+    Solution::is_palindrome(122);
 }
