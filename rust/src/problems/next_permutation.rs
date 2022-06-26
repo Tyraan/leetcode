@@ -1,5 +1,6 @@
 
 
+
 pub fn next_permutation(nums: &mut Vec<i32>) {
     
     let length = nums.len();

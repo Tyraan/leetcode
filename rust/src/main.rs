@@ -1,7 +1,6 @@
-mod next_permutation_31;
+mod problems;
 
 fn main() {
-    let mut v = vec![1,2,3,4,5,6];
-    v.len();
-    next_permutation_31::next_permutation(&mut v);
+    let num = 14441;
+    problems::solution::Solution::is_palindrome(122);
 }
