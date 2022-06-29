@@ -1,6 +1,9 @@
-mod problems;
-use  problems::solution::Solution as Solution;
+use hello_macro::HelloMacro;
+use hello_macro_derive::HelloMacro;
+
+#[derive(HelloMacro)]
+struct Pancakes;
+
 fn main() {
-    let num = 14441;
-    Solution::search_insert(vec![1,2,4,5,6,7,132],122);
+    Pancakes::hello_macro();
 }

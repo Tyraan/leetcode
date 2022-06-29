@@ -1,12 +1,9 @@
-use std::fmt::Display;
+use hello_macro::HelloMacro;
+use hello_macro_derive::HelloMacro;
 
-pub fn largest<T: PartialOrd + Copy>(list: &[T]) -> T
-{
-    let mut max = list[0];
-    for &item in list{
-        if item > max {
-            max = item;
-        }
-    }
-    max
+#[derive(HelloMacro)]
+struct Pancakes;
+
+fn main() {
+    Pancakes::hello_macro();
 }
