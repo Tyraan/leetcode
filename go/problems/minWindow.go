@@ -19,17 +19,6 @@ func MinWindow(s string, t string) string {
 			return ""
 		}
 	}
-	//leftIdx, rightIdx, 
+	leftIdx, rightIdx,
 	return ""
-
-	//for i, char := range s {
-	//	if _, exist := targetCharMap[char]; exist {
-	//		for _, runeList := range idxMap {
-	//			runeList = append(runeList, char)
-	//		}
-	//
-	//		idxMap[i] = []rune{char}
-	//	}
-	//}
-
 }
